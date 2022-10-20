@@ -1,0 +1,33 @@
+.overlayer{
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      backdrop-filter: blur(3px);
+      display: flex;
+      justify-content: end;
+      display: none;
+}
+.overlayer.show{
+      display: flex;
+}
+
+.overlayer_menu{
+      background-color: #fff;
+      padding: 0rem 3rem ;
+}
+
+.overlayer_close{
+      padding: 2rem 0;
+      text-align: right;
+      font-size: 18px;
+      cursor: pointer;
+}
+.overlayer_list{
+      list-style-type: none ;
+      padding: 0;
+}
+.overlayer_list li{
+      margin-bottom: 1rem;
+}

@@ -1,0 +1,87 @@
+:root{
+      --text-color: #50555e;
+}
+
+body{
+      margin: 0;
+}
+*{
+      font-family: 'Raleway', sans-serif;
+}
+
+
+.Tesla_logo{
+      
+      padding: 0rem 0rem 0rem 3rem;
+}
+
+
+
+.header{
+      position: fixed;
+     
+      width: 100%;
+      padding: 1em 0em 0em 0em;
+}
+
+.header__nav--sub{
+      padding: 0rem 2rem 0rem 0rem;
+
+}
+.header__nav-section{
+      display: flex;
+      justify-content: space-between;
+}
+.header__nav a{
+      text-decoration:none ;
+      padding: 0.5rem;
+      font-weight: bold;
+      color: black;
+
+}
+.header__nav{
+      position: relative;
+}
+.header__min-slider{
+      height: 1rem;
+      width: 4rem;
+      padding: 0.5rem;
+      position: absolute;
+      top: -0.37rem;
+      left: -0.3rem;
+      z-index: -1;
+      border-radius: 0.2rem;
+      background-color: rgba(174, 214, 219, 0.418);
+      transition: all 0.3s ease;
+      display: none;
+}
+
+.header__nav a:hover~.header__min-slider{
+      display: block;
+}
+.header__nav a:nth-child(1):hover~.header__min-slider{
+      left: -0.09rem;
+}
+.header__nav a:nth-child(2):hover~.header__min-slider{
+      left: 4.85rem;
+}
+.header__nav a:nth-child(3):hover~.header__min-slider{
+      left: 9.8rem;
+}
+.header__nav a:nth-child(4):hover~.header__min-slider{
+      left: 14.8rem;
+}
+.header__nav a:nth-child(5):hover~.header__min-slider{
+      left: 20.4rem;
+}
+.header__nav a:nth-child(6):hover~.header__min-slider{
+      left: 26.5rem;
+}
+
+
+
+h1{
+      margin: 0;
+}
+
+
